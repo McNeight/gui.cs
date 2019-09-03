@@ -1,6 +1,17 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# C# files
 [*.cs]
+
+#### Core EditorConfig Options ####
+
+# Indentation and spacing
+indent_size = 8
 indent_style = tab
-tab_width = 8 
+tab_width = 8
+trim_trailing_whitespace = true
+
 csharp_new_line_before_open_brace = methods,local_functions
 csharp_new_line_before_else = false
 csharp_new_line_before_catch = false
